@@ -13,14 +13,9 @@ demo2.c contains the demo code for the Raspberry Pi
 The ViSi-Genie-RaspPi-Library is required for this demo, please download that separately (http://www.github.com/4dsystems/ViSi-Genie-RaspPi-Library)
 
 
-## Installation on the Raspberry Pi
-==================
+## Make Slider Guage Demo on the Raspberry Pi
+=============================================
 
   make
 
-  sudo make install
-
-## To Uninstall
-==================
-
-  sudo make uninstall
+  sudo ./demo2
