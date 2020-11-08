@@ -178,7 +178,7 @@ int main ()
 // Genie display setup
 //	Using the Raspberry Pi's on-board serial port.
 
-  if (genieSetup ("/dev/ttyAMA0", 115200) < 0)
+  if (genieSetup ("/dev/ttyS0", 115200) < 0)
   {
     fprintf (stderr, "rgb: Can't initialise Genie Display: %s\n", strerror (errno)) ;
     return 1 ;
